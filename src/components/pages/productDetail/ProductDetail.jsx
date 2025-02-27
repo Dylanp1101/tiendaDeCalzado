@@ -1,16 +1,20 @@
-"use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { useParams, Link } from "react-router-dom"
 import { productos } from "../../../productos"
 import { useCart } from "../../../context/CartContext"
 import "./ProductDetail.css"
 
 export const ProductDetail = () => {
+  const [product, setProduct] = useState(null)
   const [quantity, setQuantity] = useState(1)
   const { id } = useParams()
   const { addToCart } = useCart()
-  const product = productos.find((p) => p.id === Number.parseInt(id))
+
+  useEffect(() => {
+    const foundProduct = productos.find((p) => p.id === Number.parseInt(id))
+    setProduct(foundProduct)
+  }, [id])
 
   if (!product) {
     return <h2>Producto no encontrado</h2>

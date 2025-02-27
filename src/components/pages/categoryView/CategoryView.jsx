@@ -1,4 +1,3 @@
-"use client"
 
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
@@ -10,10 +9,15 @@ export const CategoryView = () => {
   const { categoryId } = useParams()
 
   useEffect(() => {
-    const filteredProducts = productos.filter((product) => product.category === categoryId)
+    const filteredProducts = productos.filter((product) => product.category.toLowerCase() === categoryId.toLowerCase())
     setItems(filteredProducts)
   }, [categoryId])
 
-  return <ItemListContainer greeting={`Productos ${categoryId}`} items={items} />
+  return (
+    <div className="category-view">
+      <h2>Categoría: {categoryId}</h2>
+      <ItemListContainer greeting={`Productos en la categoría ${categoryId}`} items={items} />
+    </div>
+  )
 }
 

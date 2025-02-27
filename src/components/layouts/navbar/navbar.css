@@ -1,25 +1,25 @@
 /* Estilos generales */
 .navbar {
-  background-color: rgb(4, 4, 4); /* Color de fondo oscuro */
+  background-color: rgb(4, 4, 4); 
   padding: 15px 30px;
   display: flex;
-  justify-content: center; /* Mantiene los otros elementos centrados */
+  justify-content: center; 
   align-items: center;
   width: 100%;
 }
 
 .navbar-container {
   width: 90%;
-  max-width: 1200px; /* Para mantener un buen ancho */
+  max-width: 1200px; 
   display: flex;
-  justify-content: space-between; /* Alineación de los elementos entre sí */
+  justify-content: space-between; 
   align-items: center;
 }
 
 /* Logo */
 .navbar-logo img {
-  height: 80px; /* Aumenta el tamaño del logo */
-  margin-left: -30px; /* Mueve el logo más hacia la izquierda */
+  height: 80px; 
+  margin-left: -30px; 
 }
 
 /* Links del menú */
@@ -39,7 +39,7 @@
 }
 
 .navbar-links ul li:hover {
-  color: #bbb; /* Efecto hover */
+  color: #bbb; 
 }
 
 /* Carrito */
