@@ -1,11 +1,12 @@
-import { CartWidget } from "../../pages/itemListContainer/cartWidget/CartWidget";
-import './navbar.css';
+import { Link } from "react-router-dom"
+import './Navbar.css';
+import { CartWidget } from '../../pages/cartWidget/CartWidget';
 export const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          CalzadoShop
+        <Link to="/"><img src="https://res.cloudinary.com/dvb386cif/image/upload/v1740181090/graffiti_lettering_typography_art_illustration_hrkcru-removebg-preview_orjljk.png" alt="logo de la marca" /></Link> 
         </div>
         <div className="navbar-links">
           <ul>
@@ -15,8 +16,8 @@ export const Navbar = () => {
            
           </ul>
         </div>
-        <div className="cart-widget">
-          <CartWidget />
+        <div>
+          <CartWidget/>
         </div>
       </div>
     </nav>

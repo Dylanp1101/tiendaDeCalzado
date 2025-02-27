@@ -1,0 +1,87 @@
+/* Estilos generales */
+.navbar {
+  background-color: rgb(4, 4, 4); /* Color de fondo oscuro */
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center; /* Mantiene los otros elementos centrados */
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-container {
+  width: 90%;
+  max-width: 1200px; /* Para mantener un buen ancho */
+  display: flex;
+  justify-content: space-between; /* Alineación de los elementos entre sí */
+  align-items: center;
+}
+
+/* Logo */
+.navbar-logo img {
+  height: 80px; /* Aumenta el tamaño del logo */
+  margin-left: -30px; /* Mueve el logo más hacia la izquierda */
+}
+
+/* Links del menú */
+.navbar-links ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-links ul li {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.navbar-links ul li:hover {
+  color: #bbb; /* Efecto hover */
+}
+
+/* Carrito */
+.cart-widget {
+  position: relative;
+}
+
+.cart-widget svg {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.cart-widget .cart-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+/* Responsivo */
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar-links ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .navbar-links ul li {
+    font-size: 16px;
+  }
+}
