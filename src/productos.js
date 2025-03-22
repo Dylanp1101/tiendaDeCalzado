@@ -1,6 +1,6 @@
 export const productos = [
     // categoríaDeportivos
-    {
+/*     {
       id: 1,
       title: "Zapatillas Deportivas Nike Air Max",
       price: 120.99,
@@ -8,9 +8,9 @@ export const productos = [
       description: "Zapatillas deportivas de alto rendimiento, cómodas y con diseño moderno para entrenamiento y uso diario.",
       category: "Deportivos",
       imgUrl: "https://res.cloudinary.com/dvb386cif/image/upload/v1740621150/162623-1600-1600_vw4s31.webp"
-    },
+    }, */
     {
-      id: 2,
+      /* id: 2, */
       title: "Zapatillas Deportivas Puma RS-X",
       price: 110.75,
       stock: 30,
@@ -19,7 +19,7 @@ export const productos = [
       imgUrl: "https://res.cloudinary.com/dvb386cif/image/upload/v1740175940/Puma_UNISEX_-_%C5%A0portni_copati_-_cool_dark_gray_strong_gray_wmopqq.jpg"
     },
     {
-      id: 3,
+     /*  id: 3, */
       title: "Zapatillas Adidas Ultraboost",
       price: 160.50,
       stock: 15,
@@ -28,7 +28,7 @@ export const productos = [
       imgUrl: "https://res.cloudinary.com/dvb386cif/image/upload/v1740175985/2024_Ultraboost_5X_Shoe___adidas_US_nhzwbm.jpg"
     },
     {
-      id: 4,
+    /*   id: 4, */
       title: "Zapatillas New Balance 990v5",
       price: 139.99,
       stock: 20,
@@ -39,7 +39,7 @@ export const productos = [
   
     // categoríaCasuales
     {
-      id: 5,
+      /* id: 5, */
       title: "Zapatillas Casuales Adidas Originals",
       price: 85.50,
       stock: 40,
@@ -48,7 +48,7 @@ export const productos = [
       imgUrl: "https://res.cloudinary.com/dvb386cif/image/upload/v1740175985/2024_Ultraboost_5X_Shoe___adidas_US_nhzwbm.jpg"
     },
     {
-      id: 6,
+      /* id: 6, */
       title: "Zapatillas Casuales Reebok Classic",
       price: 78.99,
       stock: 20,
@@ -57,7 +57,7 @@ export const productos = [
       imgUrl: "https://res.cloudinary.com/dvb386cif/image/upload/v1740176133/Reebok_Classic_LT_COURT_UNISEX_-_Sneakers_laag_-_chalk_grey_classic_burgundy_etrgy6.jpg"
     },
     {
-      id: 7,
+   /*    id: 7, */
       title: "Zapatillas Converse Chuck Taylor",
       price: 60.00,
       stock: 35,
@@ -66,7 +66,7 @@ export const productos = [
       imgUrl: "https://res.cloudinary.com/dvb386cif/image/upload/v1740176136/CONVERSE_Chuck_70_Black_High_Top_Shoes_-_BLACK_EGRET___Tillys_x1nr7c.jpg"
     },
     {
-      id: 8,
+    /*   id: 8, */
       title: "Zapatillas Vans Old Skool",
       price: 65.99,
       stock: 50,
@@ -77,7 +77,7 @@ export const productos = [
   
     // categoríaChancletas
     {
-      id: 9,
+      /* id: 9, */
       title: "Chancletas Reef Fanning",
       price: 35.99,
       stock: 50,
@@ -86,7 +86,7 @@ export const productos = [
       imgUrl: "https://res.cloudinary.com/dvb386cif/image/upload/v1740620875/ojotas-reef-fanning-black-removebg-preview_nblsp5.png"
     },
     {
-      id: 10,
+      /* id: 10, */
       title: "Chancletas Adidas Adilette Comfort",
       price: 39.99,
       stock: 60,
@@ -95,7 +95,7 @@ export const productos = [
       imgUrl: "https://res.cloudinary.com/dvb386cif/image/upload/v1740176307/Adidas_Adilette_Slip-on_Quick-dry_Aqua_Slides_-_Color_Core_Black_if7371_ol9aii.jpg"
     },
     {
-      id: 11,
+      /* id: 11, */
       title: "Chancletas Nike Kepa Kai",
       price: 29.99,
       stock: 80,
@@ -104,7 +104,7 @@ export const productos = [
       imgUrl: "https://res.cloudinary.com/dvb386cif/image/upload/v1740176313/pinterest____jasminedeacon_flmnsu.jpg"
     },
     {
-      id: 12,
+     /*  id: 12, */
       title: "Chancletas Havaianas Brasil",
       price: 22.99,
       stock: 100,

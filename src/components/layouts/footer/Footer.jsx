@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
 import "./Footer.css"
-
-
-
+import { IoLogoInstagram } from "react-icons/io5";
+import { BsTwitterX } from "react-icons/bs";
+import { FaFacebookSquare } from "react-icons/fa";
 export const Footer = () => {
   return (
     <footer className="footer">
@@ -21,9 +21,6 @@ export const Footer = () => {
           <h3>Enlaces Rápidos</h3>
           <ul>
             <li><Link to="/">Inicio</Link></li>
-            <li><Link to="/deportivos">Deportivos</Link></li>
-            <li><Link to="/casuales">Casuales</Link></li>
-            <li><Link to="/chancletas">Chancletas</Link></li>
           </ul>
         </div>
 
@@ -39,9 +36,9 @@ export const Footer = () => {
         <div className="footer-section">
           <h3>Síguenos</h3>
           <div className="social-icons">
-            <a href="#"><img src="/icons/facebook.png" alt="Facebook" /></a>
-            <a href="#"><img src="/icons/instagram.png" alt="Instagram" /></a>
-            <a href="#"><img src="/icons/twitter.png" alt="Twitter" /></a>
+          <FaFacebookSquare />
+            <IoLogoInstagram />
+            <BsTwitterX />
           </div>
         </div>
       </div>

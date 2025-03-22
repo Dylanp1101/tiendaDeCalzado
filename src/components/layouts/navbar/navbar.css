@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 .navbar {
   background-color: rgb(4, 4, 4); 
   padding: 15px 30px;
@@ -16,13 +16,13 @@
   align-items: center;
 }
 
-/* Logo */
+
 .navbar-logo img {
   height: 80px; 
   margin-left: -30px; 
 }
 
-/* Links del menú */
+
 .navbar-links ul {
   display: flex;
   gap: 30px;
@@ -38,11 +38,13 @@
   transition: color 0.3s ease;
 }
 
-.navbar-links ul li:hover {
-  color: #bbb; 
+
+.navbar-links ul li a {
+  text-decoration: none; 
+  color: white; 
 }
 
-/* Carrito */
+
 .cart-widget {
   position: relative;
 }
