@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import "./Footer.css"
+import "./footer.css"
 import { IoLogoInstagram } from "react-icons/io5";
 import { BsTwitterX } from "react-icons/bs";
 import { FaFacebookSquare } from "react-icons/fa";

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { useCart } from "../../../context/CartContext";
 import { db, getDoc, doc } from "../../../firebaseDato"; 
-import "./ProductDetail.css";
+import "./productDetail.css";
 
 export const ProductDetail = () => {
   const [product, setProduct] = useState(null);

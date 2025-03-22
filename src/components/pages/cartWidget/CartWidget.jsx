@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useCart } from "../../../context/CartContext";
-import "./CartWidget.css";
+import "./cartWidget.css";
 
 export const CartWidget = () => {
   const [isCartOpen, setIsCartOpen] = useState(false);

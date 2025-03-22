@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { collection, getDocs } from "firebase/firestore";
 import { FadeLoader } from "react-spinners";
 import { db } from "../../../firebaseDato";
-import "./ItemListContainer.css";
+import "./itemListContainer.css";
 
 export const ItemListContainer = ({ greeting, items: propItems }) => {
   const [items, setItems] = useState([]);
